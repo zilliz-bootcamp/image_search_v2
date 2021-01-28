@@ -4,7 +4,7 @@ This demo is an updated version of the original image search system, replacing t
 
 The system architecture is shown below.
 
-<img src="pic\demo1.png" alt="demo1" style="zoom:48%;" />
+<img src="pic\demo1.png" alt="demo1" style="zoom:40%;" />
 
 ### Environment requirements
 
