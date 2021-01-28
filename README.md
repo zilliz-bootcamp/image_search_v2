@@ -66,7 +66,7 @@ After deployment, enter ` ${WEBCLIENT_IP}:8001` in the browser to open the inter
 
 <img src="pic/web4.png" width = "650" height = "500" alt="arch" align=center />
 
-Enter the path of an image folder in the pic_search_webserver docker container, such as **/data/images**. Click Load to load the pictures. The following screenshot shows the loading process:
+Enter the path to the images folder, e.g. /data/images. click Load to load the images. The following screenshot shows the loading process.
 
 <img src="pic/web0.png" width = "650" height = "500" alt="arch" align=center  />
 
