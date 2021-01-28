@@ -70,7 +70,7 @@ Enter the path of an image folder in the pic_search_webserver docker container, 
 
 <img src="pic/web0.png" width = "650" height = "500" alt="arch" align=center  />
 
-> Note: After clicking the Load button, it will take 1 to 2 seconds for the system to response. Please do not click again.
+> Note: After clicking the load button, the system needs to wait for a while to respond. Please do not click again
 
 The loading process may take several minutes. The following screenshot shows the interface with images loaded.
 
@@ -80,5 +80,5 @@ Select an image to search.
 
 <img src="pic/web5.png"  width = "650" height = "500" />
 
-It has been tested tha the system can complete reverse image search within 1 second using the recommended configuration. To load images in other directories of the pic_search_webserver docker, specify the path in the textbox.
+Tested with the recommended configuration, the system can complete a reverse image search in a few seconds. To load images from other directories, specify the path in the text box.
 
