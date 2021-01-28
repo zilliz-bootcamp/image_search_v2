@@ -1,0 +1,55 @@
+2021-01-28 11:07:53,929 - tensorflow - WARNING - From /data/workspace/jingjing/image_search/webserver/src/resnet50_encoder/encode.py:19: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2021-01-28 11:07:53,936 - tensorflow - WARNING - From /data/workspace/jingjing/image_search/webserver/src/resnet50_encoder/encode.py:21: The name tf.get_default_graph is deprecated. Please use tf.compat.v1.get_default_graph instead.
+
+2021-01-28 11:07:53,946 - tensorflow - WARNING - From /data/workspace/jingjing/iii/lib/python3.6/site-packages/tensorflow_core/python/ops/resource_variable_ops.py:1630: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
+Instructions for updating:
+If using Keras pass *_constraint arguments to layers.
+2021-01-28 11:07:54,003 - tensorflow - WARNING - From /data/workspace/jingjing/iii/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:4070: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+
+2021-01-28 11:07:57,974 - tensorflow - WARNING - From app.py:31: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+2021-01-28 11:08:02,361 - werkzeug - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-01-28 11:08:24,532 - werkzeug - INFO - 172.16.50.45 - - [28/Jan/2021 11:08:24] "[37mPOST /api/v1/count HTTP/1.1[0m" 200 -
+2021-01-28 11:08:25,095 - werkzeug - INFO - 172.16.50.45 - - [28/Jan/2021 11:08:25] "[37mPOST /api/v1/count HTTP/1.1[0m" 200 -
+2021-01-28 11:08:25,317 - werkzeug - INFO - 172.16.50.45 - - [28/Jan/2021 11:08:25] "[37mPOST /api/v1/count HTTP/1.1[0m" 200 -
+2021-01-28 11:08:25,548 - werkzeug - INFO - 172.16.50.45 - - [28/Jan/2021 11:08:25] "[37mPOST /api/v1/count HTTP/1.1[0m" 200 -
+2021-01-28 11:08:28,742 - werkzeug - INFO - 172.16.50.45 - - [28/Jan/2021 11:08:28] "[37mOPTIONS /api/v1/train HTTP/1.1[0m" 200 -
+2021-01-28 11:08:28,788 - werkzeug - INFO - 172.16.50.45 - - [28/Jan/2021 11:08:28] "[37mPOST /api/v1/train HTTP/1.1[0m" 200 -
+2021-01-28 11:08:29,815 - werkzeug - INFO - 172.16.50.45 - - [28/Jan/2021 11:08:29] "[37mGET /api/v1/process HTTP/1.1[0m" 200 -
+2021-01-28 11:08:32,836 - werkzeug - INFO - 172.16.50.45 - - [28/Jan/2021 11:08:32] "[37mPOST /api/v1/count HTTP/1.1[0m" 200 -
+2021-01-28 11:08:41,800 - root - INFO - yolov3 detector cost: 12.379s, get 25 results
+2021-01-28 11:08:41,806 - tensorflow - WARNING - From /data/workspace/jingjing/iii/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:422: The name tf.global_variables is deprecated. Please use tf.compat.v1.global_variables instead.
+
+2021-01-28 11:08:54,000 - werkzeug - INFO - 172.16.50.45 - - [28/Jan/2021 11:08:54] "[37mPOST /api/v1/count HTTP/1.1[0m" 200 -
+2021-01-28 11:08:59,109 - root - INFO - yolov3 detector cost: 0.499s, get 1 results
+2021-01-28 11:09:01,101 - werkzeug - INFO - 172.16.50.45 - - [28/Jan/2021 11:09:01] "[37mPOST /api/v1/search HTTP/1.1[0m" 200 -
+2021-01-28 11:09:01,123 - werkzeug - INFO - 172.16.50.45 - - [28/Jan/2021 11:09:01] "[37mGET /data/COCO_val2014_000000240751.jpg HTTP/1.1[0m" 200 -
+2021-01-28 11:09:01,123 - werkzeug - INFO - 172.16.50.45 - - [28/Jan/2021 11:09:01] "[37mGET /data/COCO_val2014_000000048143.jpg HTTP/1.1[0m" 200 -
+2021-01-28 11:09:01,125 - werkzeug - INFO - 172.16.50.45 - - [28/Jan/2021 11:09:01] "[37mGET /data/COCO_val2014_000000453649.jpg HTTP/1.1[0m" 200 -
+2021-01-28 11:09:29,250 - werkzeug - INFO - 172.16.50.45 - - [28/Jan/2021 11:09:29] "[37mOPTIONS /api/v1/train HTTP/1.1[0m" 200 -
+2021-01-28 11:09:29,295 - werkzeug - INFO - 172.16.50.45 - - [28/Jan/2021 11:09:29] "[37mPOST /api/v1/train HTTP/1.1[0m" 200 -
+2021-01-28 11:09:30,327 - werkzeug - INFO - 172.16.50.45 - - [28/Jan/2021 11:09:30] "[37mGET /api/v1/process HTTP/1.1[0m" 200 -
+2021-01-28 11:09:33,347 - werkzeug - INFO - 172.16.50.45 - - [28/Jan/2021 11:09:33] "[37mPOST /api/v1/count HTTP/1.1[0m" 200 -
+2021-01-28 11:09:41,092 - werkzeug - INFO - 172.16.50.45 - - [28/Jan/2021 11:09:41] "[37mPOST /api/v1/count HTTP/1.1[0m" 200 -
+2021-01-28 11:09:42,253 - werkzeug - INFO - 172.16.50.45 - - [28/Jan/2021 11:09:42] "[37mPOST /api/v1/count HTTP/1.1[0m" 200 -
+2021-01-28 11:09:42,332 - root - INFO - yolov3 detector cost: 12.500s, get 25 results
+2021-01-28 11:09:42,807 - werkzeug - INFO - 172.16.50.45 - - [28/Jan/2021 11:09:42] "[37mPOST /api/v1/count HTTP/1.1[0m" 200 -
+2021-01-28 11:09:43,082 - werkzeug - INFO - 172.16.50.45 - - [28/Jan/2021 11:09:43] "[37mPOST /api/v1/count HTTP/1.1[0m" 200 -
+2021-01-28 11:09:56,242 - werkzeug - INFO - 172.16.50.45 - - [28/Jan/2021 11:09:56] "[37mPOST /api/v1/count HTTP/1.1[0m" 200 -
+2021-01-28 11:10:01,507 - root - INFO - yolov3 detector cost: 0.523s, get 1 results
+2021-01-28 11:10:01,599 - werkzeug - INFO - 172.16.50.45 - - [28/Jan/2021 11:10:01] "[37mPOST /api/v1/search HTTP/1.1[0m" 200 -
+2021-01-28 11:10:04,992 - root - INFO - yolov3 detector cost: 0.488s, get 1 results
+2021-01-28 11:10:05,058 - werkzeug - INFO - 172.16.50.45 - - [28/Jan/2021 11:10:05] "[37mPOST /api/v1/search HTTP/1.1[0m" 200 -
+2021-01-28 11:10:05,082 - werkzeug - INFO - 172.16.50.45 - - [28/Jan/2021 11:10:05] "[37mGET /data/COCO_val2014_000000553447.jpg HTTP/1.1[0m" 200 -
+2021-01-28 11:10:05,084 - werkzeug - INFO - 172.16.50.45 - - [28/Jan/2021 11:10:05] "[37mGET /data/COCO_val2014_000000483836.jpg HTTP/1.1[0m" 200 -
+2021-01-28 11:10:05,084 - werkzeug - INFO - 172.16.50.45 - - [28/Jan/2021 11:10:05] "[37mGET /data/COCO_val2014_000000299017.jpg HTTP/1.1[0m" 200 -
+2021-01-28 11:10:05,087 - werkzeug - INFO - 172.16.50.45 - - [28/Jan/2021 11:10:05] "[37mGET /data/COCO_val2014_000000157715.jpg HTTP/1.1[0m" 200 -
+2021-01-28 11:10:05,087 - werkzeug - INFO - 172.16.50.45 - - [28/Jan/2021 11:10:05] "[37mGET /data/COCO_val2014_000000002684.jpg HTTP/1.1[0m" 200 -
+2021-01-28 11:10:05,088 - werkzeug - INFO - 172.16.50.45 - - [28/Jan/2021 11:10:05] "[37mGET /data/COCO_val2014_000000406001.jpg HTTP/1.1[0m" 200 -
+2021-01-28 11:10:05,156 - werkzeug - INFO - 172.16.50.45 - - [28/Jan/2021 11:10:05] "[37mGET /data/COCO_val2014_000000063381.jpg HTTP/1.1[0m" 200 -
+2021-01-28 11:10:05,165 - werkzeug - INFO - 172.16.50.45 - - [28/Jan/2021 11:10:05] "[37mGET /data/COCO_val2014_000000341950.jpg HTTP/1.1[0m" 200 -
+2021-01-28 11:10:05,171 - werkzeug - INFO - 172.16.50.45 - - [28/Jan/2021 11:10:05] "[37mGET /data/COCO_val2014_000000235642.jpg HTTP/1.1[0m" 200 -
+2021-01-28 11:10:05,172 - werkzeug - INFO - 172.16.50.45 - - [28/Jan/2021 11:10:05] "[37mGET /data/COCO_val2014_000000545129.jpg HTTP/1.1[0m" 200 -
+2021-01-28 11:10:05,176 - werkzeug - INFO - 172.16.50.45 - - [28/Jan/2021 11:10:05] "[37mGET /data/COCO_val2014_000000262092.jpg HTTP/1.1[0m" 200 -
+2021-01-28 11:10:05,183 - werkzeug - INFO - 172.16.50.45 - - [28/Jan/2021 11:10:05] "[37mGET /data/COCO_val2014_000000009548.jpg HTTP/1.1[0m" 200 -
