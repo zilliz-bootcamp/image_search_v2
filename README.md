@@ -62,7 +62,7 @@ In the previous command, WEBSERVER_IP specifies the server IP address that runs 
 
 ### How to perform reverse image search
 
-After deployment, enter ` ${WEBCLIENT_IP}:8001` in the browser to open the interface for reverse image search. WEBCLIENT_IP specifies the server IP address that runs pic-search-webclient docker.
+After deployment, enter ` ${WEBCLIENT_IP}:8001` in the browser to open the interface for reverse image search. **WEBCLIENT_IP** specifies the server IP address that runs pic-search-webclient docker.
 
 <img src="pic/web4.png" width = "650" height = "500" alt="arch" align=center />
 
