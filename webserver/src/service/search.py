@@ -48,7 +48,7 @@ def do_search(image_encoder,table_name, img_path, top_k):
         vect, obj_images = get_object_vector(image_encoder, img_path+'/object')
         #print("search...after detect:", len(vect), obj_images)
         index_client = milvus_client()
-        vect = normaliz_vec(vect)
+        #vect = normaliz_vec(vect)
         status, results = search_vectors(index_client, table_name, vect, top_k)
        # print(status, results)
         vids=[]
