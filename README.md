@@ -43,15 +43,17 @@ cd /image_search/webserver
 pip install -r requirements.txt
 
 ```
+#### 3.Modify configuration file
 
-#### 3.start query service
+
+#### 4.start query service
 
 ```
 cd  /image_search/webserver/src
 python app.py
 ```
 
-#### 4. Run pic-search-webclient docker
+#### 5. Run pic-search-webclient docker
 
 ```bash
 $ docker run --name zilliz_search_images_demo_web -d --rm -p 8001:80 \
