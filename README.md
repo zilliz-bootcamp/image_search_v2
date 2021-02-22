@@ -48,7 +48,6 @@ pip install -r requirements.txt
 ```
 vim  /image_search_v2/webserver/src/common/config.py
 
-
 ```
  Required parameters for the corresponding milvus configuration
 | Parameter        | Description                             | Default setting                               |
@@ -58,7 +57,7 @@ vim  /image_search_v2/webserver/src/common/config.py
 | VECTOR_DIMENSION | Dimensionality of the vectors           | 2048                                          |
 | DATA_PATH        | Path to save images                     | /data/jpegimages                              |
 | DEFAULT_TABLE    | The milvus default collection           | milvus_183                                    |
-| UPLOAD_PATH      | Path for image upload                   | /tmp/search-images                            |
+| UPLOAD_PATH      | Storage path for uploaded images        | /tmp/search-images                            |
 | COCO_MODEL_PATH  | Path of the target detection model      | /yolov3_detector/data/yolov3_darknet          |
 | YOLO_CONFIG_PATH | Profile path for target detection model | /yolov3_detector/data/yolov3_darknet/yolo.yml |
 
