@@ -40,7 +40,8 @@ This demo uses Milvus 0.10.5. Refer to the [Install Milvus](https://www.milvus.i
 
 ```
 cd /image_search/webserver
-pip install -r requriment.txt
+pip install -r requirements.txt
+
 ```
 
 #### 3.start query service
