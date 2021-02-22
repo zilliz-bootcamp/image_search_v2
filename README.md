@@ -47,8 +47,10 @@ pip install -r requirements.txt
 
 ```
 vim  /image_search_v2/webserver/src/common/config.py
-Required parameters for the corresponding milvus configuration
 
+
+```
+ Required parameters for the corresponding milvus configuration
 | Parameter        | Description                             | Default setting                               |
 | ---------------- | --------------------------------------- | --------------------------------------------- |
 | MILVUS_HOST      | milvus service ip                       | 127.0.0.1                                     |
@@ -60,7 +62,6 @@ Required parameters for the corresponding milvus configuration
 | COCO_MODEL_PATH  | Path of the target detection model      | /yolov3_detector/data/yolov3_darknet          |
 | YOLO_CONFIG_PATH | Profile path for target detection model | /yolov3_detector/data/yolov3_darknet/yolo.yml |
 
-```
 #### 4.start query service
 
 ```
