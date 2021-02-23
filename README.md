@@ -1,8 +1,8 @@
 # Reverse Image Search Based on Milvus （v2.0）
 
-This demo is an updated version of the original image search system, replacing the original image feature extraction model VGG with Resnet 50, adding the target detection function for images, and then building a reverse image search system in combination with Milvus.
+This demo is an updated from the one about reverse image search based on Milvus and VGG. We replace the original image feature extraction model, VGG, with ResNet-50 to perform target detection for images and build a reverse image search system based on Milvus.
 
-The system architecture is shown below.
+Below is the system architecture.
 
 <img src="pic\demo1.png" alt="demo1" style="zoom:40%;" />
 
@@ -20,19 +20,19 @@ The following tables show recommended configurations for reverse image search. T
 
 ### Data source
 
-This demo uses the PASCAL VOC image set, which contains 17125 images with 20 categories: human; animals (birds, cats, cows, dogs, horses, sheep); transportation (planes, bikes,boats, buses, cars, motorcycles, trains); household (bottles, chairs, tables, pot plants, sofas, TVs)
+This demo uses PASCAL VOC image set, which contains 17125 images that can be divided into 20 categories: human, animals (birds, cats, cows, dogs, horses, sheep, and more), means of transport (planes, bikes, boats, buses, cars, motorcycles, trains, and more), furniture and household appliances (bottles, chairs, tables, potted plants, sofas, TVs, and more)
 
 Dataset size: ~ 2 GB.
 
-Download location: https://pan.baidu.com/s/1MjACqsGiLo3oiTMcxodtdA extraction code: v78m
+Url for download: https://pan.baidu.com/s/1MjACqsGiLo3oiTMcxodtdA extraction code: v78m
 
-> Note: You can also use other images for testing. This system supports the following formats: .jpg and .png.
+> Note: You can also use other images for testing. This system supports images in formats of .jpg and .png.
 
 ### How to deploy the system
 
 ### GPU method
 
-#### 1. Run Milvus Docker
+#### 1. Run Milvus docker
 
 This demo uses Milvus 0.10.5. Refer to the [Install Milvus](https://www.milvus.io/cn/docs/v0.10.5/milvus_docker-gpu.md) for how to run Milvus docker.
 
@@ -49,7 +49,7 @@ pip install -r requirements.txt
 vim  /image_search_v2/webserver/src/common/config.py
 
 ```
- Required parameters for the corresponding milvus configuration
+ Modify the parameters in Milvus configuration file.
 | Parameter        | Description                             | Default setting                               |
 | ---------------- | --------------------------------------- | --------------------------------------------- |
 | MILVUS_HOST      | milvus service ip                       | 127.0.0.1                                     |
@@ -61,7 +61,7 @@ vim  /image_search_v2/webserver/src/common/config.py
 | COCO_MODEL_PATH  | Path of the target detection model      | /yolov3_detector/data/yolov3_darknet          |
 | YOLO_CONFIG_PATH | Profile path for target detection model | /yolov3_detector/data/yolov3_darknet/yolo.yml |
 
-#### 4.start query service
+#### 4.Start query service
 
 ```
 cd  /image_search/webserver/src
@@ -76,7 +76,7 @@ $ docker run --name zilliz_search_images_demo_web -d --rm -p 8001:80 \
 milvusbootcamp/pic-search-webclient:0.2.0
 ```
 
-In the previous command, WEBSERVER_IP specifies the server IP address that runs pic-search-webserver docker.
+In the previous command line, WEBSERVER_IP specifies the server IP address that runs pic-search-webserver docker.
 
 ### How to perform reverse image search
 
@@ -84,19 +84,19 @@ After deployment, enter ` ${WEBCLIENT_IP}:8001` in the browser to open the inter
 
 <img src="pic/web4.png" width = "650" height = "500" alt="arch" align=center />
 
-Enter the path to the images folder, e.g. /data/images. click Load to load the images. The following screenshot shows the loading process.
+Enter the path to the images folder, e.g. /data/images. Click Load to load the images. The following screenshot shows the loading process.
 
 <img src="pic/web0.png" width = "650" height = "500" alt="arch" align=center  />
 
-> Note: After clicking the load button, the system needs to wait for a while to respond. Please do not click again
+> Note: After clicking the Load button, you need to wait for a while for the system to respond. Please do not make mulitple clicks.
 
-The loading process may take several minutes. The following screenshot shows the interface with images loaded.
+The loading process may take several minutes. The following screenshot shows the interface when the images are successfully loaded.
 
 <img src="pic\web3 .png" width = "650" height = "500" />
 
-Select an image to search.
+Select the image you want to search for.
 
 <img src="pic/web5.png"  width = "650" height = "500" />
 
-Tested with the recommended configuration, the system can complete a reverse image search in a few seconds. To load images from other directories, specify the path in the text box.
+When tested with the recommended configuration, the reverse image search in the system can be done in a few seconds. To load images from other directories, specify the path in the text box.
 
