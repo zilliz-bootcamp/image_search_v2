@@ -67,6 +67,7 @@ Need to modify the **milvus port** or **milvus ip** parameters corresponding to 
 cd  /image_search/webserver/src
 python app.py
 ```
+If your yolo model is not downloaded automatically, you need to go to the **image_search_v2/webserver/src/yolov3_detector/data/** path and run the **paprepare_model.sh** script
 
 #### 5. Run pic-search-webclient docker
 
