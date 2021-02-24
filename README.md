@@ -49,7 +49,7 @@ pip install -r requirements.txt
 vim  /image_search_v2/webserver/src/common/config.py
 
 ```
- Required parameters for the corresponding milvus configuration
+Need to modify the **milvus port** or **milvus ip** parameters corresponding to the Milvus installation
 | Parameter        | Description                             | Default setting                               |
 | ---------------- | --------------------------------------- | --------------------------------------------- |
 | MILVUS_HOST      | milvus service ip                       | 127.0.0.1                                     |
