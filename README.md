@@ -16,7 +16,7 @@ The following tables show recommended configurations for reverse image search. T
 | CPU      | Intel(R) Core(TM) i7-7700K CPU @ 4.20GHz                     |
 | Memory   | 32GB                                                         |
 | OS       | Ubuntu 18.04                                                 |
-| Software | Milvus 0.10.5<br />pic_search_webclient  0.2.0<br / |
+| Software | Milvus 0.10.5<br />pic_search_webclient  0.2.0               |
 
 ### Data source
 
