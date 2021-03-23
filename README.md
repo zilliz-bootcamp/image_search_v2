@@ -91,7 +91,7 @@ Enter the path to the images folder, e.g. /data/images. click Load to load the i
 
 > Note: After clicking the load button, the system needs to wait for a while to respond. Please do not click again
 
-The loading process may take several minutes. The following screenshot shows the interface with images loaded.
+It may take several minutes to load the images. The following screenshot shows the interface when image loading is successful.
 
 <img src="pic\web3 .png" width = "650" height = "500" />
 
