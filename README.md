@@ -1,3 +1,5 @@
+:exclamation::exclamation: **This repo will no longer be maintained, please visit https://github.com/milvus-io/bootcamp** :exclamation: :exclamation:
+
 # Reverse Image Search Based on Milvus （v2.0）
 
 This demo is an updated from the one about reverse image search based on Milvus and VGG. We replace the original image feature extraction model, VGG, with ResNet-50 to perform target detection for images and build a reverse image search system based on Milvus.
